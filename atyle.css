@@ -1,0 +1,148 @@
+
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;600;700&display=swap');
+body {
+  font-family: "Noto Sans JP", serif;
+  background-color: #33363B;
+}
+
+.navbar {
+  background-color: #33363B !important;
+ }
+
+.navbar-menu {
+  color: #ffffff !important;
+  } 
+}
+
+.navbar-text {
+  font-family: "Noto Sans JP", serif;
+  font-size: 25px;
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.input-arrow {
+  color: #a238ff !importante;
+}
+
+.box {
+  width: 75%;
+  display: inline-block;
+  text-align: center;
+  background-color: #4F545C;
+ }
+
+.navbar-item :hover{
+  color: #a238ff !important;
+  } 
+
+
+.navbar-dropdown :arrow{
+  color: #a238ff !important;
+  background-color: #a238ff !important;
+ } 
+
+.title {
+  color: #ffffff;
+}
+.subtitle {
+  color: #f1f1f1;
+}
+
+.border {
+  border-radius: 50%;
+}
+ 
+#backgroundimage {
+background-image: url("https://cdn.discordapp.com/attachments/764335007954501664/774339008791707738/wp5952726-kokichi-ouma-computer-wallpapers.jpg");
+width: 100%;
+height:100%; 
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: relative;
+}
+
+.container {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2; 
+  }
+
+.footer {
+  background-color: #23272a;
+  color: gray;
+  border-radius: 20px 20px 0px 0px ;
+}
+
+.fa-heart {
+  color: #c33;
+}
+
+#heart-animation {
+  animation: heartbeat 1s infinite;
+}
+/* ANIMATIONS  */
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+ 
+
+#super {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 1s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
